@@ -1,0 +1,28 @@
+/* Prototipo de baja fidelidad · Tablero gerencial de stock, costos y contratos
+   Yerbatera Misiones S.R.L. (AE4, López). Datos FICTICIOS de demostración. */
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#fff;font-family:"Liberation Sans",Arial,Helvetica,sans-serif;color:#1f2d2d;width:820px}
+.dev{background:#1b2424;border-radius:18px;padding:12px;width:820px}
+.scr{background:#f6f1e8;border-radius:10px;overflow:hidden}
+.top{background:#1f3a3a;color:#fff;padding:12px 18px;display:flex;justify-content:space-between;align-items:center}
+.top .b{font-size:13px;opacity:.85;letter-spacing:.3px}
+.top .t{font-size:19px;font-weight:700;margin-top:2px}
+.chips{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.chip{background:rgba(255,255,255,.16);border-radius:14px;padding:4px 11px;font-size:13px;white-space:nowrap}
+.nav{display:flex;gap:0;background:#e8dfd0;border-bottom:1px solid #d5c9b5;font-size:14px}
+.nav span{padding:8px 16px;color:#4d5a57}.nav .on{background:#f6f1e8;color:#1f3a3a;font-weight:700;border-top:3px solid #b8652b;padding-top:5px}
+.body{padding:14px 18px 12px}
+.card{background:#fff;border:1px solid #d9cfbe;border-radius:8px;padding:12px 14px}
+.card h3{font-size:14px;color:#1f3a3a;text-transform:uppercase;letter-spacing:.5px;margin-bottom:9px}
+.kpi{font-size:13px;color:#5a6764}.kpi b{display:block;font-size:27px;color:#1f2d2d;margin-top:2px}
+.kpi small{font-size:12.5px;color:#5a6764}
+.btn{border-radius:8px;padding:9px 15px;font-size:14.5px;font-weight:700;border:2px solid #1f3a3a;color:#1f3a3a;background:#fff;display:inline-block}
+.btn.p{background:#b8652b;border-color:#b8652b;color:#fff}.btn.d{background:#1f3a3a;color:#fff}
+.foot{font-size:12.5px;color:#5a6764;margin-top:9px;display:flex;justify-content:space-between}
+.tag{display:inline-block;border-radius:6px;padding:2px 8px;font-size:13px;font-weight:700;white-space:nowrap}
+.g{background:#d6ebdd;color:#14532d}.a{background:#f8e0a8;color:#744a00}.r{background:#f4cdc6;color:#8f1d12}.bl{background:#d6e4f2;color:#173f73}.gr{background:#e4e0d6;color:#3b4a47}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{font-size:12.5px;color:#5a6764;text-align:left;padding:4px 6px;border-bottom:1.5px solid #d9cfbe}
+td{padding:6px;border-bottom:1px solid #eee7da}
+.bar{height:17px;border-radius:3px;background:#1f3a3a;display:inline-block;vertical-align:middle}
+.bar.o{background:#b8652b}
